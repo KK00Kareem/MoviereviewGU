@@ -1,0 +1,331 @@
+/*#movieGenreLabel{
+margin-bottom: 10px;
+margin-left: 15px;
+text-align: left;
+color: white;
+font-size: 24px;
+text-shadow: 2px 2px 4px #a20909;
+}
+*/
+body, html {
+      background-color:   white  !important;
+      overflow: none;
+  }
+
+  /*#EEEEEE*/
+
+button.btnModal{
+    background-color: #EEEEEE;
+    border: #EEEEEE;
+    border-radius: 5px;
+}
+
+.current {
+	color: white;
+}
+
+button.searchbtnModal{
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+}
+
+img {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.read {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+    border-radius: 3px;
+}
+
+.read:hover {
+    background-color: white;
+    color: black;
+}
+
+.hdr1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  
+}
+
+.retroshadow {
+    color: #2c2c2c;
+    /*background-color: #d5d5d5;*/
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+ .insetshadow {
+  font-family: 'Pacifico', cursive;
+  color: #1976D2;
+    /*background-color: #d5d5d5;*/
+  letter-spacing: .05em;
+  text-shadow: 
+      4px 4px 0px gold, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+ .movieName {
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+
+ .overview {
+ 	color: #808080;
+ }
+
+.heading {
+  width: 100%;
+  height: 250px;
+  font-weight: bold;
+  text-align: center;
+  background: gold;
+}
+
+.header_logo {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding-top: 80px;
+  font-size: 50px;
+  text-shadow: 3px 4px rgba(black, .1);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Andada|Permanent+Marker|Raleway:300');
+/** {
+ box-sizing: border-box;
+}*/
+
+#namer {
+ /*position: relative;*/
+ max-width: 800px;
+ /*margin: 150px auto 0;*/
+ font-family: 'Nunito', sans-serif;
+}
+
+#namer input {
+ border: 0;
+ border-bottom: 2px solid #1976D2;
+ border-right: 2px solid #1976D2;
+ border-left: 2px solid #1976D2;
+ border-top: 2px solid #1976D2;
+
+ width: 100%;
+ font-size: 30px;
+ line-height: 35px;
+ height: 70px;
+ text-align: center;
+ padding: 10px;
+ outline: 1;
+
+ background: transparent;
+	color: #1976D2;
+}
+
+.search-btn button {
+	background: #1976D2;
+	color: #fff;
+	border: 2px solid;
+	border-color: #1976D2;
+	border-radius: 5px;
+	padding: 15px;
+	display: block;
+	width: 50%;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+}
+
+.search-btn button:hover {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+
+
+.genre-btn button {
+	background: #1976D2;
+	color: #fff;
+	border: 2px solid;
+	border-color: #1976D2;
+	border-radius: 5px;
+	padding: 15px;
+	padding-bottom: 20px;
+	display: block;
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+}
+
+.genre-btn button:hover {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+
+.genre-btn button:focus {
+	background: transparent;
+	color: #1976D2;
+	border: 2px solid #1976D2;
+	cursor: pointer;
+}
+
+
+
+/*#namer input:focus {
+ outline: 0;
+	color: #1976D2;
+}*/
+/*#namer input::placeholder {
+ color: #BBDEFB;
+}*/
+
+/*.search-box {
+  display: inline-block;
+  width: 60%;
+  border-radius: 3px;
+  padding: 4px 55px 4px 15px;
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-box.hovered, .search-box:hover, .search-box:active {
+  border: 1px solid #aaa;
+}
+.search-box input[type=text] {
+  border: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  background: transparent;
+}
+.search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {
+  box-shadow: none;
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: #aaa;
+  border-radius: 3px;
+  font-size: 21px;
+  padding: 5px 10px 1px;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.search-box .search-btn:hover {
+  color: #fff;
+  background-color: #8FBE00;
+}
+*/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:#1976D2; }
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:#1976D2; } 
+
+/*::placeholder {
+    color: #BBDEFB;
+    opacity: 1; 
+
+:-ms-input-placeholder { 
+   color: #BBDEFB;
+}
+
+::-ms-input-placeholder { 
+}*/
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+footer .dev {
+  width: 50%;
+  float: left;
+}
+
+footer .dev p {
+  padding-left: 10%;
+  color: white;
+  font-size: 15px;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+footer .social {
+  width: 50%;
+  float: right;
+}
+footer .social a {
+  float: right;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+  float: right;
+}
